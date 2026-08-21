@@ -18,12 +18,16 @@
     <!--
       Шрифт свой, а не с fonts.googleapis.com: там это два обращения к
       чужим доменам до первого текста. Начертания подрезаны до кириллицы
-      и латиницы (fontTools, см. docs/README) — 16 КБ вместо 69.
+      и латиницы (`scripts/prepare-fonts.py`) — 25 КБ вместо 190.
+
+      Заранее просим два файла из четырёх: обычный текст и переменный,
+      на котором заголовки и вес 600. Medium и Bold встречаются ниже
+      первого экрана и подождут своей очереди.
     -->
-    <link rel="preload" href="/meeroute/fonts/GolosText-Regular.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="preload" href="/meeroute/fonts/GolosText-SemiBold.woff2" as="font" type="font/woff2" crossorigin />
-    <script type="module" crossorigin src="/meeroute/assets/index-C_i7Qg0U.js"></script>
-    <link rel="stylesheet" crossorigin href="/meeroute/assets/index-DEFc4eP_.css">
+    <link rel="preload" href="/meeroute/fonts/YSText-Regular.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/meeroute/fonts/YSText-VF.woff2" as="font" type="font/woff2" crossorigin />
+    <script type="module" crossorigin src="/meeroute/assets/index-BychJucr.js"></script>
+    <link rel="stylesheet" crossorigin href="/meeroute/assets/index-tUzXJVgz.css">
   </head>
   <body>
     <div id="root"></div>
